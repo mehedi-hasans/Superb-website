@@ -22,3 +22,14 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+ // Main Slider Animation
+
+ $(".slider-part").on("translate.owl.carousel", function(){
+  $('.banner-text-area h1, .').removeClass('fadeInDown animated').css('opacity', '0');
+
+});
+
+$(".slider-part").on("translated.owl.carousel", function(){
+  $('.banner-text-area h1,').addClass('fadeInDown animated').css('opacity', '1');
+
+});

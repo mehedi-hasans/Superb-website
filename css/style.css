@@ -59,6 +59,10 @@ body{
   .header_bottom .col-md-6 {
       overflow: hidden;
   }
+  .logo a h2 {
+    color: #000;
+    font-weight: 800;
+}
   
   .header_bottom .col-md-6 img {
       width: 100%;
@@ -179,6 +183,15 @@ body{
       font-family: sans-serif;
       padding: 0 61px;
   }
+
+  /* Owl Carousel Part Start */
+
+  .OwlCorousel_full{
+      height: 300px;
+      background-color: #dfdfdf;
+      overflow: hidden;
+      display: block;
+  }
   /* About code start */
   section.agency .col-md-8 img {
     overflow: hidden;
@@ -226,6 +239,7 @@ body{
       overflow: hidden;
       margin-bottom: 34px;
       padding: 30px;
+      
       /* background: green; */
   }
   
@@ -289,8 +303,7 @@ body{
   
   .single_title {float: left;}
   
-  .single_profile {
-  }
+ 
   
   .single_testimonial {
       overflow: hidden;
@@ -301,7 +314,9 @@ body{
       margin-right: 10px;
       transition:all .3s ease-in-out;
   }
-  
+  .slick-dots li button::before {
+    font-size: 24px;
+  }
   .single_testimonial p:first-child {
       padding-bottom: 9px;
       font-size: 19px;
@@ -398,7 +413,17 @@ body{
   
   /* Footer Part Code End */
   
+  .slicknav_menu{
+    background-color: #ffe8c3;
+  }
+  /* Responsive Area */
   
-  
-  
-  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    
+
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+
+  }
