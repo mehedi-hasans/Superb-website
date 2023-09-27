@@ -15,4 +15,11 @@ $('.slider-full').slick({
     dots: true,
    
   });
- 
+//  css3 animated headline codestart
+$('.headline').animatedHeadline({
+  
+});
+// css3 animated headline code end
+
+// owl carousel plugin
+$('.owl-carousel').owlCarousel();

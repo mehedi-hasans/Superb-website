@@ -183,6 +183,15 @@ body{
       font-family: sans-serif;
       padding: 0 61px;
   }
+
+  /* Owl Carousel Part Start */
+
+  .OwlCorousel_full{
+      height: 300px;
+      background-color: #dfdfdf;
+      overflow: hidden;
+      display: block;
+  }
   /* About code start */
   section.agency .col-md-8 img {
     overflow: hidden;
@@ -230,6 +239,7 @@ body{
       overflow: hidden;
       margin-bottom: 34px;
       padding: 30px;
+      
       /* background: green; */
   }
   
@@ -293,8 +303,7 @@ body{
   
   .single_title {float: left;}
   
-  .single_profile {
-  }
+ 
   
   .single_testimonial {
       overflow: hidden;
@@ -404,7 +413,17 @@ body{
   
   /* Footer Part Code End */
   
+  .slicknav_menu{
+    background-color: #ffe8c3;
+  }
+  /* Responsive Area */
   
-  
-  
-  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    
+
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+
+  }
